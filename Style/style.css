@@ -1,0 +1,289 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 0.3% 10% 0.3% 10%;
+  position: relative;
+  margin-bottom: 0%;
+}
+
+nav ul {
+  list-style: none;
+  z-index: 11;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 140px;
+  font-family: "Urbanist", sans-serif;
+  z-index: 11;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  z-index: 11;
+}
+
+nav ul li a:hover {
+  color: #333;
+  transform: scale(1.05);
+  transition-duration: 11ms;
+}
+
+section {
+  z-index: 11;
+}
+
+.contenedor_videito {
+  height: 768px;
+  width: 100%;
+}
+
+.videito {
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  margin-top: -10%;
+  position: relative;
+}
+
+.nombree {
+  z-index: 2;
+  top: 16%;
+  left: 30%;
+  position: absolute;
+  width: 35%;
+}
+
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  margin-top: 20px;
+  align-items: center;
+}
+
+.work img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skills-list {
+  margin-top: 20px;
+}
+
+.contact-form {
+  margin-top: 20px;
+}
+.conocimientos {
+  background-color: #240060;
+
+  width: 100%;
+  height: 500px;
+  margin-top: -159px;
+}
+.titulo1 {
+  margin-top: 0px;
+  font-family: "Urbanist", sans-serif;
+  font-size: 45px;
+  margin-bottom: -10px;
+  color: #9b9b9b;
+}
+.redondo {
+  width: 80px;
+  height: 80px;
+  margin-right: 30px;
+}
+.redondo1 {
+  width: 80px;
+  height: 80px;
+}
+
+.progress-container {
+  height: 30px;
+  position: relative;
+  margin-top: 50px;
+  width: 100px;
+  margin-right: 50px;
+}
+
+.progress-bar {
+  height: 30px;
+  width: 150px;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 20%;
+  color: white;
+}
+
+.barras_de_progreso {
+  display: flex;
+  margin-left: 85px;
+}
+.contenedor_redondos {
+  margin-bottom: -40px;
+}
+.libro {
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 30px;
+  width: 60px;
+
+  z-index: 3;
+}
+
+.leng {
+  width: 100px;
+  z-index: 3;
+  margin-top: 60px;
+  margin-left: 110px;
+}
+
+.lenguajes {
+  display: flex;
+}
+.nombres {
+  display: flex;
+}
+
+.l2 {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: -390px;
+  font-family: "Urbanist", sans-serif;
+  position: absolute;
+  color: white;
+}
+.l3 {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: -203px;
+  font-family: "Urbanist", sans-serif;
+  position: absolute;
+  color: white;
+}
+.l4 {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  position: absolute;
+  color: white;
+}
+.l5 {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 189px;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  position: absolute;
+  color: white;
+}
+.l6 {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 395px;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  position: absolute;
+  color: white;
+}
+
+.titulo22 {
+  margin-bottom: -50px;
+  margin-top: 20px;
+ position: absolute;
+  font-family: "Urbanist", sans-serif;
+  font-size: 42px;
+  margin-bottom: -10px;
+  margin-left: 5px;
+  color: #9b9b9b;
+}
+
+.skills {
+  background-color: #dce2f4;
+  margin-top: -60px;
+  height: 90%;
+}
+.ex {
+  color: #535b61;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  font-size: 27px;
+  margin-top: 30px;
+}
+.ex1 {
+  color: #45484a;
+  font-family: "Urbanist", sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  font-size: 30;
+}
+
+.proyecsweb{
+
+display: flex;
+text-align: center;
+margin-left: -210px;
+
+}
+.proyecswebt{   
+  display: flex;
+  font-size: 20px;
+  margin-left: 485px;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+}
+.proyeimg{
+display: flexbox;
+margin-left: 40px;
+
+
+}
+.fp{
+  width: 640px;
+  height: 340px;
+  margin-right: 2px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+
+}
+
+.fp2{
+
+   color: #45484a;
+  font-family: "Urbanist", sans-serif;
+  text-align: left;
+  margin-left: 25px;
+  font-size: 30;
+}
+.proyecswebt2{
+  display: flex;
+  font-size: 20px;
+  margin-left: 585px;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+}
+.fp3{
+    width: 690px;
+  height: 380px;
+  margin-right: 2px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  margin-left: 24%;
+}
